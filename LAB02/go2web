@@ -8,6 +8,22 @@ function _echo() {
 	fi
 }
 
+function _request() {
+	if [[ "$1" ]]; then
+		python scripts/parser.py -u "$1"
+	else
+		python scripts/parser.py -u "www.python.org/"
+	fi
+}
+
+function _search() {
+	if [[ "$1" ]]; then
+		python scripts/parser.py -s "$1"
+	else
+		python scripts/parser.py -s "Python"
+	fi
+}
+
 fmt_help="  %-20s\t%-54s\n"
 function _help() {
 	echo "Description: HTTP, Caching and Content Negotiation."
@@ -37,6 +53,10 @@ case "$#" in
 2)
 	if [[ "$1" == "-e" || "$1" == "--echo" || "$1" == "echo" ]]; then
 		_echo "$2"
+	elif [[ "$1" == "-u" || "$1" == "--url" || "$1" == "url" ]]; then
+		_request "$2"
+	elif [[ "$1" == "-s" || "$1" == "--search" || "$1" == "search" ]]; then
+		_search "$2"
 	else
 		echo "Input error."
 		exit 1
