@@ -1,9 +1,6 @@
 import argparse
-from go2websocket import Go2WebSocket
-from modules import Display
 
 class CLIParser:
-
     @staticmethod
     def take_input():
         parser = argparse.ArgumentParser()
@@ -28,15 +25,3 @@ class CLIParser:
             return "URL", args.input_url
         else:
             return "Search", args.search_term
-
-
-if __name__ == '__main__':
-
-    r, msg = CLIParser.take_input()
-
-    if r == "URL":
-        res = Go2WebSocket.request_url(msg)
-        Display.display_site(res)
-    else:
-        res = Go2WebSocket.search_term(msg)
-        Display.process_data(res)
