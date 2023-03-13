@@ -13,8 +13,8 @@ All the solutions are written in `HTML`, `CSS`.
 |  Lab No. | Status |
 |----------|--------|
 | LAB 01   | `DONE` |
-| LAB 02   | `NONE` |
-| LAB 03   | `NONE` |
+| LAB 02   | `DONE` |
+| LAB 03   | `DOING` |
 | LAB 04   | `NONE` |
 | LAB 05   | `NONE` |
 
