@@ -93,13 +93,15 @@
         <div class="mb-3 xl:w-5/12">
           <div class="relative mb-4 flex w-full flex-wrap items-stretch">
             <input
-              type="search"
+              id="todo-input-form"
+              type="text"
               class="relative m-0 -mr-px block w-[1%] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
               placeholder="Todo.."
               aria-label="Search"
               aria-describedby="button-addon1"
             />
             <button
+              id="todo-input-btn"
               class="relative z-[2] flex items-center rounded-r bg-gray-800 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-gray-300 transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
               type="button"
               id="button-addon1"
@@ -113,6 +115,7 @@
       </div>
 
       <!-- TODO LIST -->
+      <ul class="todos grid w-8/12 gap-6 md:grid-cols-1 mx-auto"></ul>
     </div>
   </body>
 </html>
