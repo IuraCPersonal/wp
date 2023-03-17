@@ -40,7 +40,7 @@ class HTMLParser(Parser):
         soup = BeautifulSoup(r.decode(), "html.parser")
         body = soup.get_text().strip()
 
-        print(body)
+        print(body.encode("utf-8"))
 
 
 class LinksParser(Parser):

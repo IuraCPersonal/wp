@@ -1,5 +1,6 @@
 import argparse
 
+
 class CLIParser:
     @staticmethod
     def take_input():
