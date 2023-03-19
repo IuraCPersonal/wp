@@ -1,0 +1,6 @@
+# HTTP, CACHING AND REDIRECTS
+
+## NOTE:
+
+During the development of this software, all the test were done in the Windows PowerShell - meaning that all the outputs were designed to match the terminal's standards.
+I noticed that in a Bash shell, the output might not look as great. Thank you for your understanding. Future improvements in coming...
