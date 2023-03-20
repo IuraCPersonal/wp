@@ -14,7 +14,7 @@ All the solutions are written in `HTML`, `CSS`.
 |----------|--------|
 | LAB 01   | `DONE` |
 | LAB 02   | `DONE` |
-| LAB 03   | `DOING` |
+| LAB 03   | `DONE` |
 | LAB 04   | `NONE` |
 | LAB 05   | `NONE` |
 
