@@ -20,9 +20,9 @@ npm run dev
 
 ## 🎉 FEATURES I COVERED
 
-[x] Add task to the list
-[x] Remove task from the list
-[x] Mark task as done/undone
-[x] See todos based on groups
-[x] Start a Pomodoro 🍅 timer
-[ ] ToDo: Notification system
+- [x] Add task to the list
+- [x] Remove task from the list
+- [x] Mark task as done/undone
+- [x] See todos based on groups
+- [x] Start a Pomodoro 🍅 timer
+- [ ] ToDo: Notification system
