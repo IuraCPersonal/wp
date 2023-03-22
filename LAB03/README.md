@@ -6,17 +6,25 @@ This project represents a simple ToDo List made with HTML, CSS and JavaScript wi
 
 ## 🐱‍👓 HOW TO RUN
 
-Step 1 - Build the project.
+Step 1 - Intall Dependencies.
+
+```
+npm install
+```
+
+Step 2 - Build the project.
 
 ```
 npm run build
 ```
 
-Step 2 - Start the project.
+Step 3 - Start the project.
 
 ```
 npm run dev
 ```
+
+Step 4 - Open application. Go to `localhost:3000`
 
 ## 🎉 FEATURES I COVERED
 
