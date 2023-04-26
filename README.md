@@ -15,7 +15,7 @@ All the solutions are written in `HTML`, `CSS`.
 | LAB 01   | `DONE` |
 | LAB 02   | `DONE` |
 | LAB 03   | `DONE` |
-| LAB 04   | `NONE` |
+| LAB 04   | [LINK](https://github.com/IuraCPersonal/react-quiz-app) |
 | LAB 05   | `NONE` |
 
 ## 📮 CONTACT
