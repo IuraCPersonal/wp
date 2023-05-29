@@ -6,7 +6,7 @@
 
 This repository contains first homework assignment for the `WP` course here at `TUM FCIM`.
 
-All the solutions are written in `HTML`, `CSS`.
+All the solutions are written in `HTML`, `CSS` and `JS`.
 
 ## 🎯 PROGRESS
 
@@ -16,7 +16,7 @@ All the solutions are written in `HTML`, `CSS`.
 | LAB 02   | `DONE` |
 | LAB 03   | `DONE` |
 | LAB 04   | [LINK](https://github.com/IuraCPersonal/nextjs-quiz-app) |
-| LAB 05   | `NONE` |
+| LAB 05   | [LINK](https://github.com/IuraCPersonal/newsroom-telegram-api) |
 
 ## 📮 CONTACT
 
